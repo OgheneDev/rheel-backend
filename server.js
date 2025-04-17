@@ -21,8 +21,8 @@ app.use(express.urlencoded({ extended: true })); // Parse URL-encoded bodies
 app.use(cors({
   origin: [
     'http://localhost:3000',
-    'https://your-vercel-preview.app',
-    'https://your-domain.com'
+    'https://rheel-main-8cy9.vercel.app',
+    'https://rheel.ng'
   ],
   credentials: true
 }));
